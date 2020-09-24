@@ -9,7 +9,7 @@ const Navbar = () => {
                     to="main-section"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                 >
                     Main
@@ -19,7 +19,7 @@ const Navbar = () => {
                     to="about-section"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                 >
                     About
@@ -29,7 +29,7 @@ const Navbar = () => {
                     to="contact-section"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                 >
                     Contact
