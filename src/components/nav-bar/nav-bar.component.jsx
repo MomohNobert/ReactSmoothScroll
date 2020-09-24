@@ -10,7 +10,7 @@ const Navbar = () => {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}
+                    duration={250}
                 >
                     Main
                 </Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}
+                    duration={250}
                 >
                     About
                 </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}
+                    duration={250}
                 >
                     Contact
                 </Link>

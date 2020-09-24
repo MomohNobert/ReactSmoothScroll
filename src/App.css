@@ -9,17 +9,9 @@
   width: 100%;
 }
 
-.navbar ul {
-  list-style: none;
-  text-align: right;
-  padding: 15px;
-}
-
-.navbar ul li {
-  color: white;
-  font-size: 2em;
-  padding-right: 20px;
-  display: inline;
+.navbar > .active {
+  transition: all 0.2s linear;
+  border-bottom: 2px solid white;
 }
 
 .main-section {
@@ -31,6 +23,7 @@
   height: 100vh;
   background-color: mediumpurple; 
 }
+
 
 .contact-section {
   height: 100vh;
